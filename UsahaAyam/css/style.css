@@ -68,11 +68,19 @@ body {
   outline: 0 !important;
 }
 
+
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
+
+
+.navbar-brand .h1 {
+  font-size:50 px;
+  color:gold;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -365,7 +373,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #33211D;
+  /* color: #33211D; */
+  color:gold;
 }
 
 h1, .h1 {
@@ -9264,6 +9273,19 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.navbar h1 {
+  color:yellow !important;
+}
+
+.baru{
+  color:yellow !important
+}
+
+.text-gold {
+  color: #DA9F5B !important;
+}
+
+
 .text-primary {
   color: #DA9F5B !important;
 }
@@ -9328,9 +9350,9 @@ a.text-dark:hover, a.text-dark:focus {
   color: black !important;
 }
 
-.text-body {
+/* .text-body {
   color: #555555 !important;
-}
+} */
 
 .text-muted {
   color: #6c757d !important;
