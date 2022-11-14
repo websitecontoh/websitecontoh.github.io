@@ -76,10 +76,10 @@ hr {
 }
 
 
-.navbar-brand .h1 {
+/* .navbar-brand .h1 {
   font-size:50 px;
   color:gold;
-}
+} */
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -373,8 +373,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  /* color: #33211D; */
-  color:gold;
+  color: #33211D;
+  /* color:gold; */
 }
 
 h1, .h1 {
@@ -9278,17 +9278,17 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
-.navbar h1 {
+/* .navbar h1 {
   color:yellow !important;
-}
+} */
 
-.baru{
+/* .baru{
   color:yellow !important
-}
+} */
 
-.text-gold {
+/* .text-gold {
   color: #DA9F5B !important;
-}
+} */
 
 
 .text-primary {
@@ -9590,6 +9590,8 @@ h6,
   right: 0;
   bottom: 0;
   background: rgba(51, 33, 29, 0.7);
+  /* background: rgba(223, 250, 211, 0.007); */
+
   z-index: 1;
 }
 
@@ -9674,7 +9676,7 @@ h6,
 .page-header,
 .offer,
 .footer {
-  background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/bg.jpg);
+  background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/bc.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
