@@ -1,0 +1,82 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#FFF url(../images/b_body.gif) 0 0 repeat-x; color:#848484; font:10px/14px Tahoma, Geneva, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#8a9526; text-decoration:underline;}
+p a:hover{ color:#000; text-decoration:none;}
+
+.headline{font:12px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#8a9526; font-weight:bold}
+
+#container{width:734px; position:relative; margin:0 auto;}
+
+/* TOP */
+
+#topPan{width:734px; height:59px; position:relative;}
+#topPan img#logo{position:absolute; top:12px; left:28px}
+
+#topPan ul.menu{position:absolute; top:24px; left:206px; width:525px}
+#topPan ul.menu li{height:15px; margin-right:40px; float:left}
+#topPan ul.menu li a{height:15px; display:block; text-indent:-20000px; }
+#topPan ul.menu li a:hover{height:15px;}
+
+#topPan ul.menu li.btn_1 a{width:74px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_1 a:hover{width:74px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_2 a{width:69px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_2 a:hover{width:69px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_3 a{width:74px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_3 a:hover{width:74px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_4 a{width:64px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_4 a:hover{width:64px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_5{margin-right:0}
+#topPan ul.menu li.btn_5 a{width:66px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_5 a:hover{width:66px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+/* HEADER */
+
+#header{width:734px; height:268px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#slogan{position:absolute; top:87px; left:35px}
+
+/* CONTENT */
+
+#content{width:734px; position:relative; clear:both;}
+#leftPan{width:400px; float:left; margin:0 68px 0 30px; display:inline}
+#rightPan{width:205px; float:left; margin:26px 0 0 0;}
+
+#welcome {margin-bottom:14px}
+#welcome h2{height:32px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat;}
+#welcome img{float:left;}
+#welcome p{float:left; width:300px; padding-top:10px}
+#welcome p span{display:block; margin-bottom:10px}
+
+#featured h2{height:18px; position:relative; background:url(../images/h_featured.gif) 0 0 no-repeat; margin-bottom:17px}
+.fItem{width:190px; float:left}
+.fItem p{margin-bottom:10px}
+.fItem img{margin-bottom:5px}
+.fItem ul{margin-left:5px}
+.fItem ul li{font:10px/14px Tahoma, Geneva, sans-serif; background:url(../images/bullet.gif) 0 2px no-repeat; padding-left:17px; height:18px;}
+.fItem ul li a{color:#848484; text-decoration:none;}
+.fItem ul li a:hover{color:#848484; text-decoration:underline;}
+.fItem#lItem{margin:0 20px 0 0}
+
+#news {margin-bottom:15px}
+#news h2{height:18px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:14px}
+#news p{margin-bottom:10px}
+
+#mortgage h2{height:18px; position:relative; background:url(../images/h_mortgage.gif) 0 0 no-repeat; margin-bottom:14px}
+#mortgage p span{display:block; margin-bottom:12px}
+
+.clear#end{height:15px}
+
+/* FOOTER */
+
+#footer{width:734px; height:50px; clear:both; background:#f0f0f0 }
+#footer p{padding: 8px 0 0 0; font:11px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#848484;}
+#footer p a{font:11px/16px Tahoma, sans-serif; font-weight:normal; color:#848484; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#848484}
