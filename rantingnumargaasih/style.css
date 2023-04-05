@@ -841,7 +841,7 @@
 }
 
 .carosal_bottom {
-    background-image: url(img/carosal_bottom_bg.jpg);
+    background-image: url(img/bg_nu.png);
     background-size: 100% 100%;
     height: 575px;
 }
@@ -861,7 +861,8 @@
 }
 
 .carosal_bottom .item p {
-    color: #fff;
+    /* color: #fff; */
+    color: #0c0c0c;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -878,8 +879,16 @@
     font-size: 60px;
 }
 
+.carosal_bottom .item a {
+    text-decoration: underline;
+    color: #0e492b;
+    text-decoration-thickness: 20%;
+    /* line-height:2; */
+}
+
 .carosal_bottom .item h4 {
-    color: #fff;
+    /* color: #fff; */
+    color: #0c0c0c;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -891,7 +900,8 @@
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    /* color: #fff; */
+    color: #0c0c0c;
 }
 
 .carosal_bottom .owl-theme .owl-nav,
