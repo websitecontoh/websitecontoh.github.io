@@ -80,7 +80,7 @@
 }
 
 .carosal-area {
-    background-image: url("img/na.jpg");
+    background-image: url("img/carosal-bg.jpg");
     background-size: cover;
 }
 
@@ -252,10 +252,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     font-weight: 500;
-    padding: 10px;
     color: #3c354e;
-    display: flex;
-    justify-content: center;
 }
 
 .our_activity .single-Promo p {
