@@ -69,6 +69,8 @@
 
 .main-logo>img {
     display: inline-block;
+    width: 100px;
+    height:auto;
 }
 
 .main-logo>h2 {
@@ -956,7 +958,7 @@
 
         /* tab-size: 12; */
         /* display: inline-block; */
-        padding-left:em ;
+        padding-left:5em ;
 }
 
 .organizer .single_news .texts p.texts {
